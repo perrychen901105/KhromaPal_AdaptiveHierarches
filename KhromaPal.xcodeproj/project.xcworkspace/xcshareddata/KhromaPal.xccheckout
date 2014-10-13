@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E8539670-3616-45F8-912C-977661C6A12A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KhromaPal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1D7E7543ABA52EF67237E256C67D983760CA6559</key>
+		<string>ssh://bitbucket.org/sammyd/khromapal.git</string>
+		<key>A4B1FFB5348480D2370F0EFFFD96546421F0D82C</key>
+		<string>https://github.com/perrychen901105/KhromaPal_AdaptiveHierarches</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KhromaPal.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1D7E7543ABA52EF67237E256C67D983760CA6559</key>
+		<string>../../../KhromaPal</string>
+		<key>A4B1FFB5348480D2370F0EFFFD96546421F0D82C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/perrychen901105/KhromaPal_AdaptiveHierarches</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A4B1FFB5348480D2370F0EFFFD96546421F0D82C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1D7E7543ABA52EF67237E256C67D983760CA6559</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KhromaPal</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A4B1FFB5348480D2370F0EFFFD96546421F0D82C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KhromaPal_AdaptiveHierarches</string>
+		</dict>
+	</array>
+</dict>
+</plist>
