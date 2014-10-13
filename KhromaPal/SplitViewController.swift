@@ -13,7 +13,9 @@ class SplitViewController: UISplitViewController,
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        // 2
+        delegate = self
+        
         // Do any additional setup after loading the view.
     }
 
@@ -22,6 +24,13 @@ class SplitViewController: UISplitViewController,
         // Dispose of any resources that can be recreated.
     }
     
+    // 3
+    /*
+        is called when a split view controller is collapsing down into a navigation controller, and governs the behavior of the detail view controller.
+    */
+    func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController: UIViewController!, ontoPrimaryViewController primaryViewController: UIViewController!) -> Bool {
+        return true
+    }
 
     /*
     // MARK: - Navigation
