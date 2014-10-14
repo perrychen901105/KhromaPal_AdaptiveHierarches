@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0471B49E19ED23BD00DEE89C /* PaletteContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0471B49D19ED23BD00DEE89C /* PaletteContainer.swift */; };
 		04D5016719EBC44A00DD4382 /* TraitOverrideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5016619EBC44A00DD4382 /* TraitOverrideViewController.swift */; };
 		04D5016919EBC88600DD4382 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5016819EBC88600DD4382 /* SplitViewController.swift */; };
 		2220645D1967336E00BD4FBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2220645C1967336E00BD4FBC /* Foundation.framework */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0471B49D19ED23BD00DEE89C /* PaletteContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteContainer.swift; sourceTree = SOURCE_ROOT; };
 		04D5016619EBC44A00DD4382 /* TraitOverrideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitOverrideViewController.swift; sourceTree = "<group>"; };
 		04D5016819EBC88600DD4382 /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		222064591967336E00BD4FBC /* KhromaPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KhromaPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +178,7 @@
 		22B5FFB319C4908C000936D2 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				0471B49D19ED23BD00DEE89C /* PaletteContainer.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				22BE30351967521700772605 /* Colours.m in Sources */,
 				04D5016719EBC44A00DD4382 /* TraitOverrideViewController.swift in Sources */,
 				22BE302D19674C8D00772605 /* PaletteTreeNode.swift in Sources */,
+				0471B49E19ED23BD00DEE89C /* PaletteContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

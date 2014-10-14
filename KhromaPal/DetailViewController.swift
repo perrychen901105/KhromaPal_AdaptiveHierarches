@@ -22,7 +22,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController, PaletteDisplayContainer {
 
   @IBOutlet weak var titleLabel: UILabel!
   @IBOutlet var colorLabels: [UILabel]!
@@ -63,7 +63,10 @@ class DetailViewController: UIViewController {
         titleLabel.textColor = middleColor.blackOrWhiteContrastingColor().colorWithAlphaComponent(0.6)
       }
     } else {
-      makeAllContentHidden(true)
+        if let empty = storyboard? .instantiateViewControllerWithIdentifier("NoPaletteSelected") as? UIViewController {
+            showViewController(empty, sender: self)
+        }
+        makeAllContentHidden(true)
     }
   }
   
@@ -83,5 +86,9 @@ class DetailViewController: UIViewController {
       title = ""
     }
   }
+    
+    func rwt_currentlyDisplayedPalette() -> ColorPalette? {
+        return colorPalette;
+    }
 
 }
