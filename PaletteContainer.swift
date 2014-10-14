@@ -10,4 +10,6 @@ import Foundation
 
 @objc protocol PaletteDisplayContainer {
     func rwt_currentlyDisplayedPalette() -> ColorPalette?
+    
+    func rwt_currentlySelectedPalette() -> ColorPalette?
 }

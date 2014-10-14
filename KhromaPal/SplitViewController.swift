@@ -32,6 +32,16 @@ class SplitViewController: UISplitViewController,
         return true
     }
 
+    func splitViewController(splitViewController: UISplitViewController, separateSecondaryViewControllerFromPrimaryViewController primaryViewController: UIViewController!) -> UIViewController? {
+        if let paletteDisplayCont = primaryViewController as? PaletteDisplayContainer {
+            if paletteDisplayCont.rwt_currentlyDisplayedPalette() != nil {
+                return nil;
+            }
+        }
+        let vc = storyboard? .instantiateViewControllerWithIdentifier("NoPaletteSelected") as UIViewController
+        return NavigationViewController(rootViewController: vc)
+    }
+    
     /*
     // MARK: - Navigation
 
