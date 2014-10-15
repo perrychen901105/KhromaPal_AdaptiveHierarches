@@ -91,8 +91,5 @@ class DetailViewController: UIViewController, PaletteDisplayContainer {
         return colorPalette;
     }
 
-    func rwt_currentlySelectedPalette() -> ColorPalette? {
-        
-    }
     
 }

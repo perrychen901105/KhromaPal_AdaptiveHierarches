@@ -29,6 +29,15 @@ class SplitViewController: UISplitViewController,
         is called when a split view controller is collapsing down into a navigation controller, and governs the behavior of the detail view controller.
     */
     func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController: UIViewController!, ontoPrimaryViewController primaryViewController: UIViewController!) -> Bool {
+        if let selectionCont = primaryViewController as? PaletteSelectionContainer {
+            if let displayCont = secondaryViewController as? PaletteDisplayContainer {
+                let selectedPalette = selectionCont.rwt_currentlySelectedPalette()
+                let displayedPalette = displayCont.rwt_currentlyDisplayedPalette()
+                if selectedPalette != nil && selectedPalette == displayedPalette {
+                    return false
+                }
+            }
+        }
         return true
     }
 

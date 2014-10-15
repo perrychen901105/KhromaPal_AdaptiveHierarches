@@ -8,7 +8,8 @@
 
 import UIKit
 
-class NavigationViewController: UINavigationController, PaletteDisplayContainer {
+class NavigationViewController: UINavigationController, PaletteDisplayContainer
+                                                    ,PaletteSelectionContainer {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +30,10 @@ class NavigationViewController: UINavigationController, PaletteDisplayContainer 
     }
     
     func rwt_currentlySelectedPalette() -> ColorPalette? {
-        
+        if let tvc = topViewController as? PaletteSelectionContainer {
+            return tvc.rwt_currentlySelectedPalette()
+        }
+        return nil
     }
     
     /*
